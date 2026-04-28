@@ -1,0 +1,251 @@
+{
+  "nav": {
+    "about": "About us",
+    "services": "Services",
+    "projects": "Projects",
+    "locator": "S-Locator",
+    "industries": "Industries",
+    "insights": "Insights",
+    "blogs": "Blogs",
+    "contact": "Contact",
+    "language": "العربية",
+    "homeLabel": "Northern Analytics home"
+  },
+  "footer": {
+    "tagline": "Bridging Strategy & Advanced Data & AI for the Digital Age.",
+    "services": "Services & Products",
+    "industries": "Industries",
+    "contact": "Contact",
+    "experts": "Contact our experts",
+    "rights": "All rights reserved.",
+    "address": [
+      "Jeddah, Kingdom of Saudi Arabia",
+      "Building No.: 3096, Street: Al Hada",
+      "District: Al Faisaliyah District",
+      "Secondary No.: 7756, Postal Code: 23442"
+    ],
+    "legal": [
+      "Accessibility",
+      "Privacy",
+      "Terms of use",
+      "Cookie Management"
+    ],
+    "serviceLinks": [
+      "Business consulting",
+      "Databricks / Data & AI",
+      "Data & analytics",
+      "S-Locator Platform",
+      "Cloud & hybrid IT",
+      "Cybersecurity"
+    ],
+    "industryLinks": [
+      "Banking & capital markets",
+      "Government & public sector",
+      "Healthcare & life sciences",
+      "Manufacturing",
+      "Retail & consumer goods",
+      "Energy & utilities"
+    ]
+  },
+  "common": {
+    "demo": "Request S-Locator Demo",
+    "expert": "Talk to an Expert"
+  },
+  "home": {
+    "partner": "Official Partner",
+    "title": "Databricks / Data & AI",
+    "accent": "Consulting",
+    "subtitle": "Featuring our flagship product:",
+    "intro": "Northern Analytics bridges the gap between strategy and execution. We bring world-class North American data consulting and powerful location intelligence products directly to the Kingdom of Saudi Arabia.",
+    "servicesEyebrow": "Databricks & Data Expertise",
+    "servicesTitle": "Our Core Services",
+    "servicesIntro": "Executing world-class architectures and advanced data strategies to accelerate your digital transformation.",
+    "strategyTitle": "Strategy Connected to Execution",
+    "strategyText": "We connect advisory, delivery, and measurable value so every data initiative has a clear business outcome.",
+    "databricksTitle": "Lakehouse consulting for modern enterprises",
+    "databricksText": "From architecture to migration and enablement, our consultants help teams adopt Databricks with secure, scalable patterns.",
+    "aboutTitle": "Built for Saudi digital transformation",
+    "aboutText": "Northern Analytics combines North American delivery standards with deep regional commitment in the Kingdom of Saudi Arabia.",
+    "locatorTitle": "S-Locator Platform",
+    "locatorText": "A location intelligence platform for market planning, site selection, territory design, and data-driven expansion.",
+    "storiesTitle": "Success Stories",
+    "visionTitle": "Our Vision",
+    "visionText": "To be the trusted bridge between advanced data capabilities and practical transformation across the region.",
+    "ctaTitle": "Ready to Accelerate Your Digital Transformation?",
+    "ctaText": "Whether you need advanced Databricks architecture or powerful spatial intelligence with S-Locator, our experts are ready to serve the KSA market."
+  },
+  "about": {
+    "eyebrow": "Who We Are",
+    "title": "The Bridge to Digital Maturity",
+    "intro": "Northern Analytics is a specialized consultancy and advisory that translates top-tier North American expertise into the heart of the Saudi Arabia digital transformation.",
+    "missionTitle": "Mission",
+    "missionText": "Deliver practical data, AI, and analytics programs that convert strategy into measurable execution.",
+    "visionTitle": "Vision",
+    "visionText": "Become the trusted regional partner for modern data platforms, spatial intelligence, and digital maturity.",
+    "valuesTitle": "Core Values",
+    "leadershipTitle": "Leadership Mindset",
+    "leadershipText": "We lead with clarity, partnership, and accountable delivery from discovery through measurable outcomes.",
+    "engagementTitle": "How We Engage",
+    "engagementText": "Every engagement starts with business goals, then moves through architecture, delivery, enablement, and continuous improvement."
+  },
+  "contact": {
+    "eyebrow": "Get in touch",
+    "title": "Tell us about your project",
+    "intro": "Share a few details and the right specialist will get back to you with a tailored response.",
+    "infoTitle": "Contact Information",
+    "firstName": "First Name *",
+    "lastName": "Last Name *",
+    "email": "Email *",
+    "phone": "Phone",
+    "location": "Location of Interest *",
+    "company": "Company",
+    "comments": "Comments *",
+    "required": "Fields marked with * are required.",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "successTitle": "Thanks for reaching out",
+    "successText": "Your message is on its way to our team. We'll respond within one business day.",
+    "again": "Send another message",
+    "review": "Please review the highlighted fields.",
+    "sent": "Message sent. Our team will reach out within one business day.",
+    "error": "Something went wrong. Please try again or email us directly."
+  },
+  "blogs": {
+    "eyebrow": "Insights",
+    "title": "Latest Blogs",
+    "intro": "Short articles and perspectives from Northern Analytics on data, AI, and location intelligence.",
+    "readMore": "Read article",
+    "back": "Back to blogs",
+    "notFound": "Article not found."
+  },
+  "aboutPage": {
+    "pageEyebrow": "ABOUT",
+    "welcomeKicker": "Welcome to Northern Analytics",
+    "welcomeHeading": "Modern Infrastructure Solutions",
+    "welcomeBody": "Building stronger communities begins with a foundation of robust data, analytics, and AI. At Northern Analytics, we are at the forefront of resilient and sustainable planning, designing, and implementing cutting-edge data-driven and AI-powered technologies to address the challenges posed by a rapidly evolving world. Our innovative solutions in Data Science, Artificial Intelligence, and BI are reshaping the future of IT business model architecture, engineering, and intelligent decision-making.",
+    "heroEyebrow": "Who We Are",
+    "heroTitle": "The Bridge to Digital Maturity",
+    "heroIntro": "Northern Analytics is a specialized consultancy and advisory that translates top-tier North American expertise into the heart of the Saudi Arabia digital transformation.",
+    "visionTitle": "Our Vision",
+    "visionText": "To serve as the strategic bridge between C-Suite ambition and operational excellence. Accelerating Vision 2030 by transferring top-tier North American expertise directly to the Kingdom's digital economy.",
+    "missionTitle": "Our Mission",
+    "missionText": "We unlock the true potential of data and AI by building scalable, secure and resilient foundations. Our mission is to move beyond theory to real-world execution, operationalizing data and AI to drive measurable growth and long-term value.",
+    "valuesTitle": "Our Core Values",
+    "valuesIntro": "We bridge the gap between strategic management and operational execution",
+    "values": [
+      {
+        "icon": "globe",
+        "title": "Global Standards, Local Context",
+        "text": "By integrating North American architectural excellence with deep local insights, we provide the strategic roadmap necessary to achieve Saudi Vision 2030 objectives in the digital era."
+      },
+      {
+        "icon": "code",
+        "title": "Execution Focus",
+        "text": "We are builders, not just strategists. Our value lies in our ability to execute and deliver data and AI operating models and infrastructure."
+      },
+      {
+        "icon": "scale",
+        "title": "Vendor-Agnostic Advisors",
+        "text": "We empower leadership to cut through market noise and identify the vendors that best serve their long-term vision. Our unbiased advisory ensures your architectural foundations are scalable, secure, and performant, maximizing the ROI of your data and AI investments."
+      }
+    ],
+    "storiesTitle": "Proven Success Stories",
+    "storiesIntro": "Real results from our global engagements.",
+    "stories": [
+      {
+        "icon": "bank",
+        "sector": "Banking and Finance",
+        "title": "Redefining Data and AI Strategy",
+        "challenge": "Fragmented data and low maturity.",
+        "result": "Moved the bank up 2 tiers in data and AI maturity.",
+        "cta": "Explore Case"
+      },
+      {
+        "icon": "strategy",
+        "sector": "Corporate Strategy",
+        "title": "National Data Monetization",
+        "challenge": "G7 entity needed sovereign strategy.",
+        "result": "Created new licensing revenue streams.",
+        "cta": "Explore Case"
+      },
+      {
+        "icon": "telecom",
+        "sector": "Telecom and Investment",
+        "title": "Smart Network Operations",
+        "challenge": "High dispatch costs and outages.",
+        "result": "50% cost saving potential identified.",
+        "cta": "Explore Case"
+      },
+      {
+        "icon": "energy",
+        "sector": "Energy and Industrial",
+        "title": "Automated Cloud Pipelines",
+        "challenge": "Manual data processing.",
+        "result": "60% boost in operational ROI.",
+        "cta": "Explore Case"
+      }
+    ],
+    "engagementTitle": "Our Engagement Model",
+    "engagementIntro": "Journey to High Maturity",
+    "steps": [
+      {
+        "title": "Define",
+        "text": "Align leadership and identify high-impact opportunities."
+      },
+      {
+        "title": "Design",
+        "text": "Assess capabilities and design architecture."
+      },
+      {
+        "title": "Build",
+        "text": "Develop and deploy data and AI solutions."
+      },
+      {
+        "title": "Deploy",
+        "text": "Integrate into daily operations and enable change management."
+      }
+    ],
+    "leadershipHeading": "We combine world-class insights with local mastery and execute end-to-end strategies that transform complex challenges into meaningful, sustainable growth.",
+    "leaders": [
+      {
+        "name": "Abdullah Abbas",
+        "role": "Managing partner and COO",
+        "text": "Enterprise Data and AI Strategy. Digital Transformation Leadership. C-Suite Advisory. Operational Excellence."
+      },
+      {
+        "name": "Haroun Bacha",
+        "role": "Partner and chief technology officer",
+        "text": "C-Suite Digital and AI Strategy. Business Management Advisory."
+      }
+    ],
+    "ctaTitle": "How can we help?",
+    "ctaButton": "Contact",
+    "challengeLabel": "Challenge",
+    "resultLabel": "Result"
+  },
+  "projectsPage": {
+    "pageEyebrow": "PROJECTS",
+    "title": "Projects Catalog",
+    "intro": "A selection of recent project case studies across telecom, marketing intelligence, and financial analytics.",
+    "items": [
+      {
+        "title": "Automated Error Analysis for Telecom",
+        "location": "Quebec, Canada",
+        "image": "/images/northernacs/hero-skyline.png",
+        "href": "https://northernacs.com/telecommunication_b1/"
+      },
+      {
+        "title": "Predictive Marketing Business Intelligence Solution",
+        "location": "Quebec, Canada",
+        "image": "/images/northernacs/SnowmobilesYellowstone.jpg",
+        "href": "https://northernacs.com/projectbrp/"
+      },
+      {
+        "title": "Data-Driven Financial Analysis Solution",
+        "location": "Quebec, Canada",
+        "image": "/images/northernacs/strengthening-the-banking-sector-by-world-bank-and-switzerland.jpg",
+        "href": "https://northernacs.com/project2/"
+      }
+    ]
+  }
+}

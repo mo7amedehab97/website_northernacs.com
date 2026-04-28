@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "databricks-lakehouse-ksa",
+    "date": "2026-04-28",
+    "title": { "en": "Why the Lakehouse Matters for Saudi Transformation", "ar": "لماذا تعد بنية الليك هاوس مهمة للتحول السعودي" },
+    "excerpt": { "en": "A practical look at how Databricks helps organizations modernize data, analytics, and AI delivery.", "ar": "نظرة عملية على دور داتابريكس في تحديث البيانات والتحليلات والذكاء الاصطناعي." },
+    "html": {
+      "en": "<p>The lakehouse model gives organizations one governed foundation for data engineering, analytics, and AI. For Saudi organizations moving quickly on digital transformation, this reduces platform sprawl and improves time to value.</p><p>Northern Analytics helps teams design secure architectures, migrate workloads, and enable internal teams with patterns that can scale.</p>",
+      "ar": "<p>توفر بنية الليك هاوس أساسا موحدا ومحكوما لهندسة البيانات والتحليلات والذكاء الاصطناعي. وبالنسبة للجهات السعودية التي تتحرك بسرعة في التحول الرقمي، فإن ذلك يقلل تشتت المنصات ويسرع تحقيق القيمة.</p><p>تساعد نورثرن أناليتكس الفرق على تصميم بنى آمنة ونقل الأحمال وتمكين الفرق الداخلية بأنماط قابلة للتوسع.</p>"
+    }
+  },
+  {
+    "slug": "location-intelligence-growth",
+    "date": "2026-04-20",
+    "title": { "en": "Location Intelligence as a Growth Engine", "ar": "الذكاء المكاني كمحرك للنمو" },
+    "excerpt": { "en": "How S-Locator supports site selection, territory planning, and market expansion decisions.", "ar": "كيف يدعم إس لوكيتر اختيار المواقع وتخطيط المناطق وقرارات التوسع." },
+    "html": {
+      "en": "<p>Market expansion depends on knowing where customers, competitors, access points, and demand signals intersect. S-Locator turns these signals into practical planning workflows.</p><p>Teams can compare opportunities, reduce location risk, and communicate decisions with clear spatial evidence.</p>",
+      "ar": "<p>يعتمد التوسع في الأسواق على فهم تقاطع العملاء والمنافسين ونقاط الوصول وإشارات الطلب. يحول إس لوكيتر هذه الإشارات إلى مسارات تخطيط عملية.</p><p>يمكن للفرق مقارنة الفرص وتقليل مخاطر المواقع وشرح القرارات بأدلة مكانية واضحة.</p>"
+    }
+  }
+]
