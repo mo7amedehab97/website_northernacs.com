@@ -18,8 +18,10 @@ import { useState } from 'react';
 import { useLanguage } from '../components/LanguageProvider';
 import { translations } from '../i18n';
 
-const ABDULLAH_PHOTO = 'https://northernacs.com/wp-content/themes/astra-child/assets/images/abdullah%20abas.jfif';
-const HAROUN_PHOTO = 'https://northernacs.com/wp-content/themes/astra-child/assets/images/Haroun%20Bacha.jpeg';
+const ABDULLAH_PHOTO =
+  'https://northernacs.com/wp-content/themes/astra-child/assets/images/abdullah%20abas.jfif';
+const HAROUN_PHOTO =
+  'https://northernacs.com/wp-content/themes/astra-child/assets/images/Haroun%20Bacha.jpeg';
 
 const valueIcons: Record<string, IconType> = {
   globe: FaGlobe,
@@ -52,7 +54,9 @@ const AboutPage = () => {
           />
           <div className="absolute bottom-0 start-0 w-full bg-nacs-green md:w-1/2">
             <div className="px-12 py-8 sm:px-12">
-              <h2 className="text-5xl font-black uppercase tracking-wide text-white">{t.pageEyebrow}</h2>
+              <h2 className="text-5xl font-black uppercase tracking-wide text-white">
+                {t.pageEyebrow}
+              </h2>
             </div>
           </div>
         </div>
@@ -60,9 +64,15 @@ const AboutPage = () => {
 
       <section className="bg-[#eceff1] py-16 md:py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-8 lg:px-12">
-          <h2 className="mb-4 text-3xl font-bold leading-tight text-nacs-green md:text-5xl">{t.welcomeKicker}</h2>
-          <h3 className="mb-6 text-4xl font-bold leading-tight text-slate-700 md:text-5xl">{t.welcomeHeading}</h3>
-          <p className="max-w-6xl text-base font-normal leading-relaxed text-slate-700 md:text-lg">{t.welcomeBody}</p>
+          <h2 className="mb-4 text-3xl font-bold leading-tight text-nacs-green md:text-5xl">
+            {t.welcomeKicker}
+          </h2>
+          <h3 className="mb-6 text-4xl font-bold leading-tight text-slate-700 md:text-5xl">
+            {t.welcomeHeading}
+          </h3>
+          <p className="max-w-6xl text-base font-normal leading-relaxed text-slate-700 md:text-lg">
+            {t.welcomeBody}
+          </p>
         </div>
       </section>
 
@@ -72,8 +82,12 @@ const AboutPage = () => {
           <span className="mb-6 inline-block rounded-full border border-white/30 bg-white/20 px-3 py-1 text-xs font-bold uppercase tracking-widest text-white backdrop-blur-sm">
             {t.heroEyebrow}
           </span>
-          <h1 className="mb-6 text-4xl font-black leading-tight text-white md:text-6xl">{t.heroTitle}</h1>
-          <p className="mx-auto max-w-4xl text-lg font-light leading-relaxed text-gray-100 md:text-2xl">{t.heroIntro}</p>
+          <h1 className="mb-6 text-4xl font-black leading-tight text-white md:text-6xl">
+            {t.heroTitle}
+          </h1>
+          <p className="mx-auto max-w-4xl text-lg font-light leading-relaxed text-gray-100 md:text-2xl">
+            {t.heroIntro}
+          </p>
         </div>
       </section>
 
@@ -107,7 +121,7 @@ const AboutPage = () => {
             <p className="text-slate-500">{t.storiesIntro}</p>
           </div>
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
-            {t.stories.map(story => (
+            {t.stories.map((story) => (
               <StoryCard
                 key={story.title}
                 Icon={storyIcons[story.icon] ?? FaBuildingColumns}
@@ -138,11 +152,21 @@ const AboutPage = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <div>
-              <h2 className="text-3xl font-bold leading-snug text-slate-900 md:text-4xl">{t.leadershipHeading}</h2>
+              <h2 className="text-3xl font-bold leading-snug text-slate-900 md:text-4xl">
+                {t.leadershipHeading}
+              </h2>
             </div>
             <div className="space-y-6">
-              {t.leaders.map(leader => (
-                <LeaderCard key={leader.name} image={leader.name.includes('Haroun') || leader.name.includes('هارون') ? HAROUN_PHOTO : ABDULLAH_PHOTO} {...leader} />
+              {t.leaders.map((leader) => (
+                <LeaderCard
+                  key={leader.name}
+                  image={
+                    leader.name.includes('Haroun') || leader.name.includes('هارون')
+                      ? HAROUN_PHOTO
+                      : ABDULLAH_PHOTO
+                  }
+                  {...leader}
+                />
               ))}
             </div>
           </div>
@@ -213,14 +237,20 @@ const StoryCard = ({
     <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-gray-50 text-nacs-green transition-colors group-hover:bg-nacs-green group-hover:text-white">
       <Icon size={20} />
     </div>
-    <div className="mb-2 text-[10px] font-bold uppercase tracking-widest text-slate-400">{sector}</div>
-    <h3 className="mb-3 text-lg font-bold text-slate-900 transition-colors group-hover:text-nacs-green">{title}</h3>
+    <div className="mb-2 text-[10px] font-bold uppercase tracking-widest text-slate-400">
+      {sector}
+    </div>
+    <h3 className="mb-3 text-lg font-bold text-slate-900 transition-colors group-hover:text-nacs-green">
+      {title}
+    </h3>
     <p className="mb-4 text-sm text-slate-600">
       <strong>{challengeLabel}:</strong> {challenge}
     </p>
     <div className="mb-6 flex items-start gap-2 rounded bg-green-50 p-3 text-xs font-bold text-green-800">
       <FaCheck className="mt-0.5 shrink-0" />
-      <span>{resultLabel}: {result}</span>
+      <span>
+        {resultLabel}: {result}
+      </span>
     </div>
     <span className="mt-auto flex items-center text-xs font-bold uppercase tracking-wider text-slate-900 transition-colors group-hover:text-nacs-green">
       {cta}
@@ -239,7 +269,17 @@ const StepCard = ({ number, title, text }: { number: number; title: string; text
   </article>
 );
 
-const LeaderCard = ({ name, role, text, image }: { name: string; role: string; text: string; image: string }) => {
+const LeaderCard = ({
+  name,
+  role,
+  text,
+  image,
+}: {
+  name: string;
+  role: string;
+  text: string;
+  image: string;
+}) => {
   const [errored, setErrored] = useState(false);
   return (
     <article className="group flex items-center gap-6 rounded-xl border border-gray-100 bg-gray-50 p-6 transition-all duration-300 hover:shadow-lg">
@@ -260,7 +300,9 @@ const LeaderCard = ({ name, role, text, image }: { name: string; role: string; t
       </div>
       <div>
         <h3 className="text-xl font-bold text-slate-900">{name}</h3>
-        <span className="mb-2 block text-xs font-bold uppercase tracking-widest text-nacs-green">{role}</span>
+        <span className="mb-2 block text-xs font-bold uppercase tracking-widest text-nacs-green">
+          {role}
+        </span>
         <p className="text-xs leading-relaxed text-slate-500">{text}</p>
       </div>
     </article>

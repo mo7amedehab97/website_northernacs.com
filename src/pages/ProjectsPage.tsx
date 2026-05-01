@@ -11,10 +11,17 @@ const ProjectsPage = () => {
     <>
       <section className="bg-[#eceff1]">
         <div className="relative">
-          <img src={HERO_IMAGE} alt={t.pageEyebrow} className="h-[420px] w-full object-cover object-center md:h-[470px]" loading="eager" />
+          <img
+            src={HERO_IMAGE}
+            alt={t.pageEyebrow}
+            className="h-[420px] w-full object-cover object-center md:h-[470px]"
+            loading="eager"
+          />
           <div className="absolute bottom-0 start-0 w-full bg-nacs-green md:w-1/2">
             <div className="px-12 py-8 sm:px-12">
-              <h2 className="text-5xl font-black uppercase tracking-wide text-white">{t.pageEyebrow}</h2>
+              <h2 className="text-5xl font-black uppercase tracking-wide text-white">
+                {t.pageEyebrow}
+              </h2>
             </div>
           </div>
         </div>
@@ -28,7 +35,7 @@ const ProjectsPage = () => {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {t.items.map(item => (
+            {t.items.map((item) => (
               <a
                 key={item.title}
                 href={item.href}
@@ -36,10 +43,19 @@ const ProjectsPage = () => {
                 rel="noopener noreferrer"
                 className="group overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
               >
-                <img src={item.image} alt={item.title} className="h-52 w-full object-cover" loading="lazy" />
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="h-52 w-full object-cover"
+                  loading="lazy"
+                />
                 <div className="p-6">
-                  <h2 className="mb-2 text-xl font-bold text-slate-900 transition-colors group-hover:text-nacs-green">{item.title}</h2>
-                  <p className="text-sm font-semibold uppercase tracking-wider text-nacs-green">{item.location}</p>
+                  <h2 className="mb-2 text-xl font-bold text-slate-900 transition-colors group-hover:text-nacs-green">
+                    {item.title}
+                  </h2>
+                  <p className="text-sm font-semibold uppercase tracking-wider text-nacs-green">
+                    {item.location}
+                  </p>
                 </div>
               </a>
             ))}

@@ -24,12 +24,7 @@
       "District: Al Faisaliyah District",
       "Secondary No.: 7756, Postal Code: 23442"
     ],
-    "legal": [
-      "Accessibility",
-      "Privacy",
-      "Terms of use",
-      "Cookie Management"
-    ],
+    "legal": ["Accessibility", "Privacy", "Terms of use", "Cookie Management"],
     "serviceLinks": [
       "Business consulting",
       "Databricks / Data & AI",
@@ -108,7 +103,17 @@
     "again": "Send another message",
     "review": "Please review the highlighted fields.",
     "sent": "Message sent. Our team will reach out within one business day.",
-    "error": "Something went wrong. Please try again or email us directly."
+    "error": "Something went wrong. Please try again or email us directly.",
+    "validation": {
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "emailRequired": "Email is required.",
+      "emailInvalid": "Please enter a valid email address.",
+      "phoneInvalid": "Only numbers and phone characters are accepted.",
+      "locationRequired": "Location of interest is required.",
+      "commentsRequired": "Please share a quick comment so we can help.",
+      "commentsMinLength": "Comments must be at least 10 characters."
+    }
   },
   "blogs": {
     "eyebrow": "Insights",

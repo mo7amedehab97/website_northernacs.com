@@ -8,11 +8,17 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "lint:files": "node scripts/eslint-files.mjs",
+    "format": "prettier --write \"src/**/*.{ts,tsx,js,jsx,css,json}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,css,json}\"",
     "preview": "vite preview --port 3000",
     "prepare": "husky"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,mjs,cjs}": "node scripts/eslint-files.mjs"
+    "*.{js,jsx,ts,tsx,mjs,cjs}": [
+      "prettier --write",
+      "node scripts/eslint-files.mjs"
+    ],
+    "*.{json,css}": "prettier --write"
   },
   "dependencies": {
     "@vitejs/plugin-react-swc": "^3.5.0",
@@ -20,6 +26,7 @@
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.1",
+    "dompurify": "^3.2.4",
     "sonner": "^2.0.1"
   },
   "devDependencies": {
@@ -30,12 +37,14 @@
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "eslint": "^9.9.0",
+    "eslint-config-prettier": "^10.0.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",
     "postcss": "^8.4.41",
+    "prettier": "^3.4.2",
     "tailwindcss": "^3.4.10",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.1",
