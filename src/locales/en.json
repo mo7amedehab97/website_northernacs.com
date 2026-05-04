@@ -9,9 +9,13 @@
     "blogs": "Blogs",
     "contact": "Contact",
     "language": "العربية",
-    "homeLabel": "Northern Analytics home"
+    "homeLabel": "Northern Analytics home",
+    "logoAlt": "Northern Analytics",
+    "searchAria": "Search",
+    "menuToggleAria": "Toggle menu"
   },
   "footer": {
+    "linkedinAria": "LinkedIn",
     "tagline": "Bridging Strategy & Advanced Data & AI for the Digital Age.",
     "services": "Services & Products",
     "industries": "Industries",
@@ -55,6 +59,25 @@
     "servicesEyebrow": "Databricks & Data Expertise",
     "servicesTitle": "Our Core Services",
     "servicesIntro": "Executing world-class architectures and advanced data strategies to accelerate your digital transformation.",
+    "heroImageAlt": "Strategic execution and city skyline",
+    "partnerLogoAlt": "Databricks partner logo",
+    "serviceCards": [
+      {
+        "id": "architecture",
+        "title": "Databricks Architecture",
+        "description": "Design and deploy secure, high-performance Lakehouse architectures engineered for enterprise scale."
+      },
+      {
+        "id": "engineering",
+        "title": "Data Engineering",
+        "description": "Build resilient, automated pipelines that transform complex data into reliable strategic assets."
+      },
+      {
+        "id": "analytics",
+        "title": "Analytics Modernisation",
+        "description": "Upgrade legacy systems to agile, AI-ready analytical environments for faster decisions."
+      }
+    ],
     "strategyTitle": "Strategy Connected to Execution",
     "strategyText": "We connect advisory, delivery, and measurable value so every data initiative has a clear business outcome.",
     "databricksTitle": "Lakehouse consulting for modern enterprises",

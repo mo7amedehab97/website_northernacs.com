@@ -65,7 +65,7 @@ const SiteLayout = () => {
             <Link to="/" aria-label={t.nav.homeLabel} className="flex items-center gap-3">
               <img
                 src="/images/northernacs/logo.png"
-                alt="Northern Analytics"
+                alt={t.nav.logoAlt}
                 className="h-12 w-auto"
                 loading="eager"
               />
@@ -110,7 +110,7 @@ const SiteLayout = () => {
             <div className="flex items-center gap-4 md:gap-6">
               <button
                 type="button"
-                aria-label="Search"
+                aria-label={t.nav.searchAria}
                 className="hidden text-slate-400 transition-colors hover:text-nacs-green md:block"
               >
                 <FaMagnifyingGlass size={16} />
@@ -124,7 +124,7 @@ const SiteLayout = () => {
               <button
                 type="button"
                 className="p-2 text-slate-800 hover:text-nacs-green lg:hidden"
-                aria-label="Toggle menu"
+                aria-label={t.nav.menuToggleAria}
                 onClick={() => setMobileOpen((v) => !v)}
               >
                 {mobileOpen ? <FaXmark size={22} /> : <FaBars size={22} />}
@@ -184,7 +184,7 @@ const SiteLayout = () => {
             <div>
               <img
                 src="/images/northernacs/logo.png"
-                alt="Northern Analytics"
+                alt={t.nav.logoAlt}
                 className="mb-5 h-10 w-auto brightness-0 invert"
                 loading="lazy"
               />
@@ -193,7 +193,7 @@ const SiteLayout = () => {
                 href="https://www.linkedin.com/company/northern-analytic"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="LinkedIn"
+                aria-label={t.footer.linkedinAria}
                 className="flex h-9 w-9 items-center justify-center rounded-full bg-white text-nacs-green transition-colors hover:bg-nacs-accent hover:text-white"
               >
                 <FaLinkedinIn size={14} />

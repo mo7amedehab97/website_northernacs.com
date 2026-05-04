@@ -13,42 +13,11 @@ import type { IconType } from 'react-icons';
 import { translations } from '../i18n';
 import { useLanguage } from '../components/LanguageProvider';
 
-const services: Array<{ id: string; Icon: IconType; en: [string, string]; ar: [string, string] }> =
-  [
-    {
-      id: 'architecture',
-      Icon: FaCubes,
-      en: [
-        'Databricks Architecture',
-        'Design and deploy secure, high-performance Lakehouse architectures engineered for enterprise scale.',
-      ],
-      ar: ['تصميم داتابريكس', 'تصميم ونشر بنى ليك هاوس آمنة وعالية الأداء ومهيأة للمؤسسات.'],
-    },
-    {
-      id: 'engineering',
-      Icon: FaNetworkWired,
-      en: [
-        'Data Engineering',
-        'Build resilient, automated pipelines that transform complex data into reliable strategic assets.',
-      ],
-      ar: [
-        'هندسة البيانات',
-        'بناء خطوط بيانات مؤتمتة ومرنة تحول البيانات المعقدة إلى أصول استراتيجية موثوقة.',
-      ],
-    },
-    {
-      id: 'analytics',
-      Icon: FaChartPie,
-      en: [
-        'Analytics Modernisation',
-        'Upgrade legacy systems to agile, AI-ready analytical environments for faster decisions.',
-      ],
-      ar: [
-        'تحديث التحليلات',
-        'تطوير الأنظمة القديمة إلى بيئات تحليلية مرنة وجاهزة للذكاء الاصطناعي.',
-      ],
-    },
-  ];
+const serviceIcons: Record<string, IconType> = {
+  architecture: FaCubes,
+  engineering: FaNetworkWired,
+  analytics: FaChartPie,
+};
 
 const HomePage = () => {
   const { lang } = useLanguage();
@@ -62,7 +31,7 @@ const HomePage = () => {
       >
         <img
           src="/images/northernacs/hero-skyline.png"
-          alt="Strategic Execution"
+          alt={t.home.heroImageAlt}
           className="absolute inset-0 h-full w-full object-cover"
           loading="eager"
         />
@@ -75,7 +44,7 @@ const HomePage = () => {
               </span>
               <img
                 src="/images/northernacs/databricks.png"
-                alt="Databricks Partner"
+                alt={t.home.partnerLogoAlt}
                 className="h-8 object-contain sm:h-12"
                 loading="eager"
               />
@@ -86,7 +55,7 @@ const HomePage = () => {
               <span className="text-nacs-green">{t.home.accent}</span>
             </h1>
             <h2 className="mb-6 border-s-4 border-nacs-green ps-4 text-xl font-medium text-slate-700 md:text-2xl">
-              {t.home.subtitle} <span className="font-bold text-nacs-green">S-Locator</span>
+              {t.home.subtitle} <span className="font-bold text-nacs-green">{t.nav.locator}</span>
             </h2>
             <p className="mb-8 text-base font-light leading-relaxed text-slate-500 md:text-lg">
               {t.home.intro}
@@ -125,8 +94,8 @@ const HomePage = () => {
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
-            {services.map(({ id, Icon, en, ar }) => {
-              const [title, description] = lang === 'ar' ? ar : en;
+            {t.home.serviceCards.map(({ id, title, description }) => {
+              const Icon = serviceIcons[id] ?? FaCubes;
               return (
                 <article
                   key={id}
